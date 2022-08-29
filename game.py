@@ -2,7 +2,7 @@ import random
 
 random_nim = random.randint(0,2)
 
-player1 = input('player 1 what are you going to play ')
+player1 = input('player 1 what are you going to play ').lower()
 
 if random_nim == 0:
     player2 = 'rock'
