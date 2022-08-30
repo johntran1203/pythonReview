@@ -10,7 +10,7 @@ numbers = [1,2,3,4]
 for number in numbers:
     print(number)
 
-colors = ['red', 'purple', 'teal', 'emerald', 'magenta']
+colors = ['red', 'purple', 'teal', 'teal','emerald', 'magenta']
 colors.append("purple")
 colors.extend(["white", 1,2])
 colors.insert(1,'hi')
@@ -22,4 +22,9 @@ colors.insert(1,'hi')
 
 colors.pop()
 colors.remove(1)
+colors.count('teal')
 print(colors)
+print(colors.index('red'))
+
+first_list=[1,2,3,4,5]
+print(first_list[1:])
